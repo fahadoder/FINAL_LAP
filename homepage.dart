@@ -1,6 +1,7 @@
 import 'dart:io';
-import 'package:f1_finalab/Control%20Page.dart';
+import 'package:final_lap/Control%20Page.dart';
 import 'package:flutter/material.dart';
+import 'Control Page.dart';
 import 'loginpage.dart';
 
 class HomePage extends StatelessWidget {
@@ -33,7 +34,7 @@ class HomePage extends StatelessWidget {
                   textColor: Colors.white,
                   onPressed: () async {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => const LoginPage()));
+                        MaterialPageRoute(builder: (context) =>  LoginPage()));
                   },
                   child: const Text("Login Page",
                     style: TextStyle(fontSize: 22),
